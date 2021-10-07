@@ -1,0 +1,11 @@
+.homeContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: aqua;
+}
+
+.header {
+  padding: 20px;
+}

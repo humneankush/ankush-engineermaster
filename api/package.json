@@ -1,0 +1,21 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "used for simple login and regiser",
+  "main": "index.js",
+  "author": "ankush",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "nodemailer": "^6.6.5",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
